@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.success, .info, .warning {
+  height: 50px;
+  width: 300px; }
+
+.success {
+  color: red;
+  background-color: blue; }
+
+.info {
+  color: red;
+  background-color: green; }
+
+.warning {
+  color: black;
+  background-color: red; }
+
+.partial {
+  height: 100px;
+  background-color: yellow; }
+  .partial .lol1 h2 {
+    color: blue; }
+
+/*# sourceMappingURL=partial.css.map */

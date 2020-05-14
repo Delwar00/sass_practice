@@ -1,0 +1,37 @@
+$bg-primary:green
+$bg-info:red
+/*mixins*/
+=border($value)
+ -webkit-border-radius: $value
+ -moz-border-radius: $value
+ border-radius: $value
+@import partial
+.header
+ height: 100px
+ color: white
+ width: 100%
+ background-color: $bg-primary
+ +border(100px)
+
+.content
+ height: 100px
+ background-color: $bg-info
+ width: 100%
+ color: white
+
+ .lol 
+  h2
+   color: blue
+
+
+.footer
+ height: 100px
+ color: red
+ width: 100%
+ background-color: white
+ input
+  border-top: none
+  border-left: none
+  border-right: none
+ input:hover
+  border-top: 5px solid red
